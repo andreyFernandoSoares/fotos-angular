@@ -60,15 +60,15 @@ api.listaGrupos = function(req, res) {
     res.json([
         {
             _id: 1, 
-            nome: 'esporte'
+            nome: 'linguagens'
         }, 
         { 
             _id: 2, 
-            nome: 'lugares', 
+            nome: 'database', 
         }, 
         { 
             _id: 3, 
-            nome: 'animais'
+            nome: 'frameworks'
         }
     ]);
         
